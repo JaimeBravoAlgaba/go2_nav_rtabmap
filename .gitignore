@@ -1,0 +1,35 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RTAB-Map / ROS runtime
+*.db
+*.bag
+*.bag.active
+*.bag.lock
+*.sqlite3
+*.yaml~
+*.rviz~
+
+# Generated TF frames files
+frames.pdf
+frames.yaml
